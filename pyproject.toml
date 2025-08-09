@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "dashbord-relatorio-salao"
+version = "0.1.0"
+description = ""
+authors = ["Rafael <rafaellevi@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.3.1"
+streamlit = "^1.48.0"
+plotly = "^6.2.0"
+openpyxl = "^3.1.5"
+python-dateutil = "^2.9.0.post0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
